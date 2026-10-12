@@ -3,12 +3,12 @@
   "version": "2026.08",
   "description": "Reusable AI agent skills following the SKILL.md standard",
   "license": "MIT",
-  "lastUpdated": "2026-10-09",
-  "totalSkills": 95,
+  "lastUpdated": "2026-10-12",
+  "totalSkills": 96,
   "categories": [
     {
       "name": "Development",
-      "count": 31
+      "count": 32
     },
     {
       "name": "Productivity",
@@ -1841,6 +1841,25 @@
         "telephony",
         "reservations",
         "mcp"
+      ]
+    },
+    {
+      "id": "review-pr",
+      "name": "Review PR",
+      "source": "GeiserX/agent-skills",
+      "category": "Development",
+      "installs": 2,
+      "description": "Reviews a pull request with independent parallel reviewers, verifies every finding, fixes the valid in-scope ones, and has an independent reviewer re-check the result.",
+      "install": "npx skills add GeiserX/agent-skills --skill review-pr",
+      "license": "GPL-3.0-or-later",
+      "verified": false,
+      "local": false,
+      "tags": [
+        "code-review",
+        "pull-request",
+        "parallel-agents",
+        "claude-code",
+        "codex"
       ]
     }
   ]
