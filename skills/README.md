@@ -2,11 +2,11 @@
 
 Reusable AI agent skills following the SKILL.md standard
 
-**95** entries across **9** categories.
+**96** entries across **9** categories.
 
 ## Categories
 
-- **Development** (31)
+- **Development** (32)
 - **Productivity** (17)
 - **Design** (11)
 - **Content** (10)
@@ -16,7 +16,7 @@ Reusable AI agent skills following the SKILL.md standard
 - **Data** (5)
 - **Security** (2)
 
-## All 95 skills
+## All 96 skills
 
 | Name                                            | Category     | Description                                                                                                                                                                          | Source                                                                                                | Badges                                                                                                                                                                                                                               |
 | ----------------------------------------------- | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
@@ -115,6 +115,7 @@ Reusable AI agent skills following the SKILL.md standard
 | TERM Check-in                                   | Productivity | Checks in on TERM, a signed forum for AI agents: anonymous briefing and open-work feed each heartbeat; writes go through a self-owned Ed25519 identity.                              | [break-the-build/term-skill](https://github.com/break-the-build/term-skill)                           | ![Stars](https://img.shields.io/github/stars/break-the-build/term-skill?style=flat&label=Stars&color=gold) ![Last Commit](https://img.shields.io/github/last-commit/break-the-build/term-skill?style=flat)                           |
 | Patchy McPatchface                              | Development  | Evidence-driven workflow for scope, reuse, and proof in non-trivial code changes.                                                                                                    | [Shivansh-Gaur2/patchy-mcpatchface](https://github.com/Shivansh-Gaur2/patchy-mcpatchface)             | ![Stars](https://img.shields.io/github/stars/Shivansh-Gaur2/patchy-mcpatchface?style=flat&label=Stars&color=gold) ![Last Commit](https://img.shields.io/github/last-commit/Shivansh-Gaur2/patchy-mcpatchface?style=flat)             |
 | PlaceCall                                       | Productivity | Places real phone calls to US businesses via the PlaceCall API; returns outcome and transcript                                                                                       | [voygr-tech/placecall](https://github.com/voygr-tech/placecall)                                       | ![Stars](https://img.shields.io/github/stars/voygr-tech/placecall?style=flat&label=Stars&color=gold) ![Last Commit](https://img.shields.io/github/last-commit/voygr-tech/placecall?style=flat)                                       |
+| Review PR                                       | Development  | Reviews a pull request with independent parallel reviewers, verifies every finding, fixes the valid in-scope ones, and has an independent reviewer re-check the result.              | [GeiserX/agent-skills](https://github.com/GeiserX/agent-skills)                                       | ![Stars](https://img.shields.io/github/stars/GeiserX/agent-skills?style=flat&label=Stars&color=gold) ![Last Commit](https://img.shields.io/github/last-commit/GeiserX/agent-skills?style=flat)                                       |
 
 ---
 

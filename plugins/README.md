@@ -2,21 +2,22 @@
 
 Extensions for Claude Code, OpenCode, Cursor, and 6 more platforms
 
-**51** entries across **9** categories.
+**54** entries across **10** categories.
 
 ## Categories
 
-- **Claude Code** (11)
+- **Claude Code** (12)
 - **OpenCode** (9)
-- **Cross-Tool** (8)
+- **Cross-Tool** (9)
 - **VS Code AI** (6)
 - **Cursor** (5)
 - **Windsurf** (4)
 - **JetBrains** (4)
 - **Copilot** (3)
 - **Aider** (1)
+- **Codex** (1)
 
-## All 51 plugins
+## All 54 plugins
 
 | Name                              | Category    | Description                                                                                                                                                               | Source                                                                                            | Badges                                                                                                                                                                                                                           |
 | --------------------------------- | ----------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -71,6 +72,9 @@ Extensions for Claude Code, OpenCode, Cursor, and 6 more platforms
 | Mnemoverse                        | Claude Code | Connects Claude Code to the hosted Mnemoverse memory server over remote MCP with a one-time OAuth sign-in, and bundles the CC0 agent-memory-discipline skill              | [mnemoverse/claude-plugin](https://github.com/mnemoverse/claude-plugin)                           | ![Stars](https://img.shields.io/github/stars/mnemoverse/claude-plugin?style=flat&label=Stars&color=gold) ![Last Commit](https://img.shields.io/github/last-commit/mnemoverse/claude-plugin?style=flat)                           |
 | API.market Gateway Plugin         | Claude Code | Connect Claude Code to API discovery and execution via a hosted OAuth MCP gateway.                                                                                        | [Noveum/api-market-agent-integrations](https://github.com/Noveum/api-market-agent-integrations)   | ![Stars](https://img.shields.io/github/stars/Noveum/api-market-agent-integrations?style=flat&label=Stars&color=gold) ![Last Commit](https://img.shields.io/github/last-commit/Noveum/api-market-agent-integrations?style=flat)   |
 | Context Guru                      | Cross-Tool  | Context optimization plugin: prompt-cache management and context compaction                                                                                               | [rossoctl/context-guru](https://github.com/rossoctl/context-guru)                                 | ![Stars](https://img.shields.io/github/stars/rossoctl/context-guru?style=flat&label=Stars&color=gold) ![Last Commit](https://img.shields.io/github/last-commit/rossoctl/context-guru?style=flat)                                 |
+| LynxPrompt                        | Cross-Tool  | Self-hosted web app and lynxp CLI that turn one set of AI coding rules into 30 rule-file formats.                                                                         | [GeiserX/LynxPrompt](https://github.com/GeiserX/LynxPrompt)                                       | ![Stars](https://img.shields.io/github/stars/GeiserX/LynxPrompt?style=flat&label=Stars&color=gold) ![Last Commit](https://img.shields.io/github/last-commit/GeiserX/LynxPrompt?style=flat)                                       |
+| workkit                           | Claude Code | Claude Code plugin that runs GitHub Issues as the work pipeline, with worker and verifier subagents and hooks that block commits until the full test suite passes.        | [ITW-Creative-Works/workkit](https://github.com/ITW-Creative-Works/workkit)                       | ![Stars](https://img.shields.io/github/stars/ITW-Creative-Works/workkit?style=flat&label=Stars&color=gold) ![Last Commit](https://img.shields.io/github/last-commit/ITW-Creative-Works/workkit?style=flat)                       |
+| Masaka for Codex                  | Codex       | Manages isolated Codex account and ChatGPT workspace profiles with usage visibility.                                                                                      | [masakaai/codex-multiple-env](https://github.com/masakaai/codex-multiple-env)                     | ![Stars](https://img.shields.io/github/stars/masakaai/codex-multiple-env?style=flat&label=Stars&color=gold) ![Last Commit](https://img.shields.io/github/last-commit/masakaai/codex-multiple-env?style=flat)                     |
 
 ---
 

@@ -2,7 +2,7 @@
 
 Essential CLI tools and utilities that enhance AI coding agent capabilities
 
-**81** entries across **14** categories.
+**82** entries across **14** categories.
 
 ## Categories
 
@@ -15,13 +15,13 @@ Essential CLI tools and utilities that enhance AI coding agent capabilities
 - **Package Managers** (5)
 - **Docker & Containers** (5)
 - **API Testing** (5)
+- **Agent Memory** (4)
 - **Database CLIs** (4)
 - **Monitoring** (4)
-- **Agent Memory** (3)
 - **Terminal Enhancement** (3)
 - **AI APIs** (2)
 
-## All 81 tools
+## All 82 tools
 
 | Name                  | Category              | Description                                                                                                                                                                                                                          | Source                                                                                           | Badges                                                                                                                                                                                                                 |
 | --------------------- | --------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -97,6 +97,7 @@ Essential CLI tools and utilities that enhance AI coding agent capabilities
 | SkyRL                 | Agent Training & Eval | Full-stack RL library for LLMs (skyrl-train, skyrl-agent, skyrl-gym) with SWE-Bench multi-turn tool-use and Harbor terminal-use training.                                                                                            | [NovaSky-AI/SkyRL](https://github.com/NovaSky-AI/SkyRL)                                          | ![Stars](https://img.shields.io/github/stars/NovaSky-AI/SkyRL?style=flat&label=Stars&color=gold) ![Last Commit](https://img.shields.io/github/last-commit/NovaSky-AI/SkyRL?style=flat)                                 |
 | YYLO                  | AI Coding CLIs        | Command-line orchestrator for coding agents with typed task, validation, merge, and release-readiness boundaries.                                                                                                                    | [yylo-dev/yylo](https://github.com/yylo-dev/yylo)                                                | ![Stars](https://img.shields.io/github/stars/yylo-dev/yylo?style=flat&label=Stars&color=gold) ![Last Commit](https://img.shields.io/github/last-commit/yylo-dev/yylo?style=flat)                                       |
 | ClineFlow             | Agent Memory          | Git-native project memory for coding agents, preserving decisions, verification, and handoffs across sessions.                                                                                                                       | [hassanvfx/clineflow](https://github.com/hassanvfx/clineflow)                                    | ![Stars](https://img.shields.io/github/stars/hassanvfx/clineflow?style=flat&label=Stars&color=gold) ![Last Commit](https://img.shields.io/github/last-commit/hassanvfx/clineflow?style=flat)                           |
+| drevon                | Agent Memory          | Turns any directory into an AI workspace with one shared config, cross-session memory, prompts and skills for coding agents.                                                                                                         | [csakash/drevon](https://github.com/csakash/drevon)                                              | ![Stars](https://img.shields.io/github/stars/csakash/drevon?style=flat&label=Stars&color=gold) ![Last Commit](https://img.shields.io/github/last-commit/csakash/drevon?style=flat)                                     |
 | YYLO Benchmark        | Agent Training & Eval | Isolated evaluation for task prompts and workflow YAML: private fresh-repository workspaces, deterministic or LLM-judge profiles, hash-linked receipts and manifests.                                                                | [yylo-dev/yylo-benchmark](https://github.com/yylo-dev/yylo-benchmark)                            | ![Stars](https://img.shields.io/github/stars/yylo-dev/yylo-benchmark?style=flat&label=Stars&color=gold) ![Last Commit](https://img.shields.io/github/last-commit/yylo-dev/yylo-benchmark?style=flat)                   |
 | LoopTroop             | AI Coding CLIs        | Local orchestrator for coding agents: multi-model planning, retry loops, and isolated worktrees.                                                                                                                                     | [looptroop-ai/LoopTroop](https://github.com/looptroop-ai/LoopTroop)                              | ![Stars](https://img.shields.io/github/stars/looptroop-ai/LoopTroop?style=flat&label=Stars&color=gold) ![Last Commit](https://img.shields.io/github/last-commit/looptroop-ai/LoopTroop?style=flat)                     |
 | molt                  | AI Coding CLIs        | A coding agent that won't say done on a false claim. Verification on disk. Receipts for accepts and refusals. Terminal and desktop. OpenAI compatible or Anthropic.                                                                  | [solvyxtech/molt](https://github.com/solvyxtech/molt)                                            | ![Stars](https://img.shields.io/github/stars/solvyxtech/molt?style=flat&label=Stars&color=gold) ![Last Commit](https://img.shields.io/github/last-commit/solvyxtech/molt?style=flat)                                   |
