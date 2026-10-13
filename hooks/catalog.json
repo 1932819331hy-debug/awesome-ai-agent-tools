@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "totalHooks": 23,
-    "lastUpdated": "2026-07-13",
+    "totalHooks": 24,
+    "lastUpdated": "2026-10-13",
     "sources": [
       "https://github.com/karanb192/claude-code-hooks",
       "https://github.com/rohitg00/awesome-claude-code-toolkit",
@@ -26,7 +26,7 @@
       },
       {
         "name": "Session Management",
-        "count": 4
+        "count": 5
       },
       {
         "name": "Safety",
@@ -505,6 +505,28 @@
       "sourceType": "community",
       "lastUpdated": "2026-07-13",
       "github": "https://github.com/ithiria894/awesome-claude-code-hooks"
+    },
+    {
+      "id": "aws-cred-check",
+      "name": "AWS Credential Check",
+      "category": "Session Management",
+      "description": "Warns before each prompt when Claude Code's AWS Bedrock credentials are expired or near expiry",
+      "eventType": "UserPromptSubmit",
+      "matcher": "",
+      "script": "aws-cred-check.mjs",
+      "language": "node",
+      "stars": 1,
+      "tags": [
+        "session",
+        "aws",
+        "bedrock",
+        "credentials",
+        "sso"
+      ],
+      "source": "github",
+      "sourceType": "community",
+      "lastUpdated": "2026-10-13",
+      "github": "https://github.com/GeiserX/cc-aws-keepalive"
     }
   ]
 }
