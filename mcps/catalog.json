@@ -3,8 +3,8 @@
   "version": "2026.08",
   "description": "Curated Model Context Protocol servers for AI-assisted development",
   "license": "MIT",
-  "lastUpdated": "2026-10-12",
-  "totalServers": 150,
+  "lastUpdated": "2026-10-13",
+  "totalServers": 151,
   "categories": [
     {
       "name": "Official Reference",
@@ -12,7 +12,7 @@
     },
     {
       "name": "Developer Tools",
-      "count": 18
+      "count": 19
     },
     {
       "name": "Browser Automation",
@@ -2856,6 +2856,26 @@
         "citations",
         "remote"
       ]
+    },
+    {
+      "id": "pdftomarkdown-ai",
+      "name": "PDFtoMarkdown.ai",
+      "category": "Developer Tools",
+      "github": "https://github.com/happywpco/pdftomarkdown-mcp",
+      "stars": 0,
+      "description": "Converts local PDF, DOCX, PPTX, XLSX, PNG/JPG, HTML and EPUB files into structured Markdown with headings, tables and OCR via the PDFtoMarkdown.ai API",
+      "install": "npm install -g @happywp/pdftomarkdown-mcp",
+      "license": "MIT",
+      "verified": false,
+      "tags": [
+        "pdf",
+        "office",
+        "markdown",
+        "ocr",
+        "conversion",
+        "documents"
+      ],
+      "notes": "Requires PDFTOMARKDOWN_API_KEY. Free account includes 10 pages, then pay-per-page credits. Docs: https://pdftomarkdown.ai/mcp"
     }
   ]
 }
