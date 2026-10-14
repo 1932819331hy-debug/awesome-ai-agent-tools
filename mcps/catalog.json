@@ -3,8 +3,8 @@
   "version": "2026.08",
   "description": "Curated Model Context Protocol servers for AI-assisted development",
   "license": "MIT",
-  "lastUpdated": "2026-10-13",
-  "totalServers": 151,
+  "lastUpdated": "2026-10-14",
+  "totalServers": 152,
   "categories": [
     {
       "name": "Official Reference",
@@ -64,7 +64,7 @@
     },
     {
       "name": "Research & Data",
-      "count": 11
+      "count": 12
     },
     {
       "name": "Marketing",
@@ -1050,6 +1050,25 @@
       ]
     },
     {
+      "id": "dc-hub",
+      "name": "DC Hub",
+      "category": "Research & Data",
+      "github": "https://github.com/azmartone67/dchub-mcp-server",
+      "stars": 3,
+      "description": "DC Hub is the live data layer for data-center site selection. Its Data Center Power Index (DCPI) is a daily score of where data centers can get grid power, across 300+ markets.",
+      "install": "Remote Streamable HTTP: https://dchub.cloud/mcp (free tier, no key; optional X-API-Key)",
+      "license": "MIT",
+      "verified": true,
+      "tags": [
+        "data-center",
+        "power",
+        "grid",
+        "site-selection",
+        "remote",
+        "dcpi"
+      ]
+    },
+    {
       "id": "trendradar",
       "name": "TrendRadar",
       "category": "Research & Data",
@@ -1779,7 +1798,7 @@
       "category": "Blockchain",
       "github": "https://github.com/vbkotecha/agentservices-api",
       "stars": 0,
-      "description": "Paid data APIs for AI agents — crypto prices, DeFi yields, on-chain analytics, whale tracking, market intelligence via x402 nanopayments",
+      "description": "Paid data APIs for AI agents \u2014 crypto prices, DeFi yields, on-chain analytics, whale tracking, market intelligence via x402 nanopayments",
       "install": "Remote endpoint: https://agentservices.to/mcp",
       "license": "MIT",
       "verified": true,
