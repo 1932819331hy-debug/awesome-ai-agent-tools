@@ -3,8 +3,8 @@
   "version": "2026.08",
   "description": "Essential CLI tools and utilities that enhance AI coding agent capabilities",
   "license": "MIT",
-  "lastUpdated": "2026-10-10",
-  "totalTools": 82,
+  "lastUpdated": "2026-10-14",
+  "totalTools": 83,
   "categories": [
     {
       "name": "Code Analysis",
@@ -52,7 +52,7 @@
     },
     {
       "name": "Terminal Enhancement",
-      "count": 3
+      "count": 4
     },
     {
       "name": "Agent Training & Eval",
@@ -883,6 +883,16 @@
       "stars": 2,
       "crossPlatform": false,
       "install": "npm install -D cage-ts"
+    },
+    {
+      "id": "unsent",
+      "name": "unsent",
+      "category": "Terminal Enhancement",
+      "description": "Saves unsent prompts in Claude Code, Codex, pi and agy as you type. Restores them after a crash.",
+      "url": "https://github.com/GeiserX/unsent",
+      "stars": 2,
+      "crossPlatform": true,
+      "install": "go install github.com/GeiserX/unsent@latest"
     }
   ]
 }
