@@ -4,7 +4,7 @@
   "description": "Curated Model Context Protocol servers for AI-assisted development",
   "license": "MIT",
   "lastUpdated": "2026-10-15",
-  "totalServers": 153,
+  "totalServers": 154,
   "categories": [
     {
       "name": "Official Reference",
@@ -76,7 +76,7 @@
     },
     {
       "name": "Blockchain",
-      "count": 3
+      "count": 4
     },
     {
       "name": "Mobile",
@@ -2915,6 +2915,27 @@
         "remote-mcp"
       ],
       "notes": "Tools: take_screenshot, list_devices. Free plan includes 100 screenshots a month, no card. Docs: https://curlshot.com/docs"
+    },
+    {
+      "id": "blockvectra",
+      "name": "BlockVectra",
+      "category": "Blockchain",
+      "github": "https://github.com/blockvectra/mcp",
+      "website": "https://docs.blockvectra.com/mcp",
+      "stars": 0,
+      "description": "Hosted MCP for developers and AI agents: keyless docs, chain discovery, pricing and permitted public JSON-RPC; Data API and account tools require an API key. It can broadcast signed transactions.",
+      "install": "Remote Streamable HTTP: https://docs.blockvectra.com/mcp (free plan available; usage beyond plan limits is metered; RPC access follows each chain policy)",
+      "verified": false,
+      "source": "github",
+      "sourceType": "official",
+      "tags": [
+        "blockchain",
+        "rpc",
+        "hosted",
+        "remote",
+        "agent",
+        "transaction-broadcast"
+      ]
     }
   ]
 }
