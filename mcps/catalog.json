@@ -3,8 +3,8 @@
   "version": "2026.08",
   "description": "Curated Model Context Protocol servers for AI-assisted development",
   "license": "MIT",
-  "lastUpdated": "2026-10-15",
-  "totalServers": 155,
+  "lastUpdated": "2026-10-16",
+  "totalServers": 156,
   "categories": [
     {
       "name": "Official Reference",
@@ -64,7 +64,7 @@
     },
     {
       "name": "Research & Data",
-      "count": 12
+      "count": 13
     },
     {
       "name": "Marketing",
@@ -144,7 +144,12 @@
       "source": "github",
       "sourceType": "community",
       "lastUpdated": "2026-10-15",
-      "tags": ["browser", "verification", "playwright", "testing"],
+      "tags": [
+        "browser",
+        "verification",
+        "playwright",
+        "testing"
+      ],
       "notes": "Stateless launch supports evidence analysis and tool discovery. Browser actions require configuration with a caller-owned Playwright/CDP session and official provider test keys or an owned flow; no production CAPTCHA bypass. Configuration: https://github.com/masakaai/rea-captcha/blob/main/docs/mcp-tools.md"
     },
     {
@@ -1082,6 +1087,30 @@
         "site-selection",
         "remote",
         "dcpi"
+      ]
+    },
+    {
+      "id": "google-hotels",
+      "name": "Google Hotels MCP",
+      "category": "Research & Data",
+      "github": "https://github.com/huynhtanan/google-hotels-mcp",
+      "stars": 0,
+      "description": "Live Google Hotels + Vacation Rentals search with per-OTA nightly rates (Booking.com, Expedia, Agoda, Vrbo, Airbnb, Hotels.com and 10+ other providers) plus a 3-month daily price calendar for any single property. Pay-per-use via Apify (bring your own APIFY_TOKEN).",
+      "install": "uvx --from \"git+https://github.com/huynhtanan/google-hotels-mcp.git@v0.1.1\" google-hotels-mcp",
+      "license": "MIT",
+      "verified": false,
+      "source": "github",
+      "sourceType": "community",
+      "lastUpdated": "2026-10-16",
+      "tags": [
+        "travel",
+        "hotels",
+        "vacation-rentals",
+        "prices",
+        "ota",
+        "booking",
+        "google-hotels",
+        "apify"
       ]
     },
     {
