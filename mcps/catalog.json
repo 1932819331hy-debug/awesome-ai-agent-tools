@@ -2921,7 +2921,7 @@
       "name": "BlockVectra",
       "category": "Blockchain",
       "github": "https://github.com/blockvectra/mcp",
-      "website": "https://docs.blockvectra.com/mcp",
+      "website": "https://docs.blockvectra.com/en/guides/mcp-server/",
       "stars": 0,
       "description": "Hosted MCP for developers and AI agents: keyless docs, chain discovery, pricing and permitted public JSON-RPC; Data API and account tools require an API key. It can broadcast signed transactions.",
       "install": "Remote Streamable HTTP: https://docs.blockvectra.com/mcp (free plan available; usage beyond plan limits is metered; RPC access follows each chain policy)",
