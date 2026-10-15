@@ -3,8 +3,8 @@
   "version": "2026.08",
   "description": "Curated Model Context Protocol servers for AI-assisted development",
   "license": "MIT",
-  "lastUpdated": "2026-10-14",
-  "totalServers": 152,
+  "lastUpdated": "2026-10-15",
+  "totalServers": 153,
   "categories": [
     {
       "name": "Official Reference",
@@ -16,7 +16,7 @@
     },
     {
       "name": "Browser Automation",
-      "count": 5
+      "count": 6
     },
     {
       "name": "Databases",
@@ -2895,6 +2895,26 @@
         "documents"
       ],
       "notes": "Requires PDFTOMARKDOWN_API_KEY. Free account includes 10 pages, then pay-per-page credits. Docs: https://pdftomarkdown.ai/mcp"
+    },
+    {
+      "id": "curlshot",
+      "name": "CurlShot",
+      "category": "Browser Automation",
+      "github": "https://curlshot.com/tools/screenshot-tool-for-ai-agents",
+      "website": "https://curlshot.com",
+      "stars": 0,
+      "description": "Screenshots any URL, HTML or Markdown as PNG, JPEG, WebP, PDF or scrolling video, full page or a single CSS-selector element, with device presets and ad/cookie-banner blocking. Official registry id io.github.SergiuPogor/curlshot.",
+      "install": "Remote MCP https://curlshot.com/api/mcp (streamable HTTP, Bearer API key)",
+      "license": "N/A",
+      "verified": true,
+      "tags": [
+        "screenshot",
+        "pdf",
+        "browser",
+        "web-capture",
+        "remote-mcp"
+      ],
+      "notes": "Tools: take_screenshot, list_devices. Free plan includes 100 screenshots a month, no card. Docs: https://curlshot.com/docs"
     }
   ]
 }
