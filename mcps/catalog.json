@@ -4,7 +4,7 @@
   "description": "Curated Model Context Protocol servers for AI-assisted development",
   "license": "MIT",
   "lastUpdated": "2026-10-16",
-  "totalServers": 159,
+  "totalServers": 160,
   "categories": [
     {
       "name": "Official Reference",
@@ -44,7 +44,7 @@
     },
     {
       "name": "Agent Orchestration",
-      "count": 14
+      "count": 15
     },
     {
       "name": "Monitoring",
@@ -3045,6 +3045,28 @@
       "source": "github",
       "sourceType": "official",
       "lastUpdated": "2026-10-16"
+    },
+    {
+      "id": "sqwakie",
+      "name": "Sqwakie (walkie)",
+      "category": "Agent Orchestration",
+      "github": "https://github.com/alexcarney460-hue/walkie",
+      "website": "https://sqwakie.si",
+      "stars": 0,
+      "description": "Claude Code and Codex agents on different machines post, reply and ask each other questions peer-to-peer through MCP tools, with shared kanban boards and a live team dashboard",
+      "install": "curl -fsSL https://sqwakie.si/install.sh | sh",
+      "license": "FSL-1.1-ALv2",
+      "verified": false,
+      "tags": [
+        "multi-agent",
+        "claude-code",
+        "codex",
+        "peer-to-peer",
+        "kanban"
+      ],
+      "source": "github",
+      "sourceType": "official",
+      "lastUpdated": "2026-10-17"
     }
   ]
 }
