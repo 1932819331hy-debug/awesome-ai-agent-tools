@@ -3,12 +3,12 @@
   "version": "2026.08",
   "description": "Essential CLI tools and utilities that enhance AI coding agent capabilities",
   "license": "MIT",
-  "lastUpdated": "2026-10-14",
-  "totalTools": 84,
+  "lastUpdated": "2026-10-18",
+  "totalTools": 85,
   "categories": [
     {
       "name": "Code Analysis",
-      "count": 10
+      "count": 11
     },
     {
       "name": "Git Utilities",
@@ -163,6 +163,16 @@
       "stars": 0,
       "crossPlatform": true,
       "install": "npx ironheights scan <path-to-skill>"
+    },
+    {
+      "id": "ratchet",
+      "name": "ratchet",
+      "category": "Code Analysis",
+      "description": "Code-size budget: refuses changes that grow a repo's line count past a ceiling; only a logged grant raises it.",
+      "url": "https://github.com/krishansubudhi/ratchet",
+      "stars": 1,
+      "crossPlatform": true,
+      "install": "pip install ratchet-size"
     },
     {
       "id": "lazygit",
