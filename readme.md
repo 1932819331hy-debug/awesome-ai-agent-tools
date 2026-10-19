@@ -3,7 +3,6 @@
 # Awesome AI Agent Tools
 
 <img src=".github/banner.jpg" alt="Awesome AI Agent Tools" width="800">
-- [InGravity](https://github.com/Tchesseludovic17-cloud/ingravity) - Self-hosted approval gate that blocks/approves risky AI agent actions before they run.
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![GitHub Stars](https://img.shields.io/github/stars/michielhdoteth/awesome-ai-agent-tools?style=flat-square&label=Stars&color=gold)](https://github.com/michielhdoteth/awesome-ai-agent-tools/stargazers)
@@ -12,7 +11,7 @@
 
 Skills, MCP servers, agent workflows, subagents, hooks, plugins, prompts, and CLI tools for AI coding assistants.
 
-**620** installable components across **8** categories. Every entry is sourced from a real open-source project. Works with Claude Code, OpenCode, Codex, Cursor, Gemini CLI, Copilot, and 30+ AI coding assistants.
+**644** installable components across **8** categories. Every entry is sourced from a real open-source project. Works with Claude Code, OpenCode, Codex, Cursor, Gemini CLI, Copilot, and 30+ AI coding assistants.
 
 ## Contents
 
@@ -27,9 +26,9 @@ Skills, MCP servers, agent workflows, subagents, hooks, plugins, prompts, and CL
 
 ## Skills
 
-96 skills across 9 categories: Development (32) · Productivity (17) · Design (11) · Content (10) · DevOps (8) · Marketing (6) · Testing (5) · Data (5) · Security (2)
+97 skills across 9 categories: Development (32) · Productivity (18) · Design (11) · Content (10) · DevOps (8) · Marketing (6) · Testing (5) · Data (5) · Security (2)
 
-**[Browse all 96 skills in skills/](skills/)** · [catalog.json](skills/catalog.json)
+**[Browse all 97 skills in skills/](skills/)** · [catalog.json](skills/catalog.json)
 
 Top 5 shown:
 
@@ -43,9 +42,9 @@ Top 5 shown:
 
 ## MCPs
 
-147 mcps across 19 categories: Developer Tools (18) · AI & Machine Learning (14) · Agent Orchestration (14) · Search (12) · Communication (11) · Databases (10) · Security (9) · Research & Data (9) · DevOps (8) · Official Reference (6) · Monitoring (6) · Finance (6) · Browser Automation (5) · Cloud Platforms (5) · Marketing (5) · Design (3) · Blockchain (3) · Mobile (2) · Data Engineering (1)
+163 mcps across 19 categories: Developer Tools (21) · Agent Orchestration (15) · AI & Machine Learning (14) · Search (13) · Communication (12) · Research & Data (12) · Databases (10) · Security (9) · DevOps (8) · Marketing (8) · Browser Automation (7) · Monitoring (7) · Official Reference (6) · Finance (6) · Cloud Platforms (5) · Blockchain (4) · Design (3) · Mobile (2) · Data Engineering (1)
 
-**[Browse all 147 mcps in mcps/](mcps/)** · [catalog.json](mcps/catalog.json)
+**[Browse all 163 mcps in mcps/](mcps/)** · [catalog.json](mcps/catalog.json)
 
 Top 5 shown:
 
@@ -91,9 +90,9 @@ Top 5 shown:
 
 ## Hooks
 
-23 hooks across 7 categories: Security (4) · Automation (4) · Session Management (4) · Quality (3) · Safety (3) · Utility (3) · Notifications (2)
+24 hooks across 7 categories: Session Management (5) · Security (4) · Automation (4) · Quality (3) · Safety (3) · Utility (3) · Notifications (2)
 
-**[Browse all 23 hooks in hooks/](hooks/)** · [catalog.json](hooks/catalog.json)
+**[Browse all 24 hooks in hooks/](hooks/)** · [catalog.json](hooks/catalog.json)
 
 Top 5 shown:
 
@@ -103,12 +102,13 @@ Top 5 shown:
 | Block Dangerous Commands                 | Blocks rm -rf, fork bombs, curl\|sh, and other destructive shell commands                                                                                | `karanb192/claude-code-hooks`          |
 | Lasso Security Prompt Injection Defenses | Enterprise-grade prompt injection detection and prevention hooks for Claude Code. Detects and blocks indirect prompt injection attacks via tool outputs. | `lasso-security/claude-hooks`          |
 | awesome-claude-code-hooks                | Curated directory of Claude Code hooks organized by category. Meta-resource for discovering hooks in the ecosystem.                                      | `ithiria894/awesome-claude-code-hooks` |
+| AWS Credential Check                     | Warns before each prompt when Claude Code's AWS Bedrock credentials are expired or near expiry                                                           | `GeiserX/cc-aws-keepalive`             |
 
 ## Plugins
 
-54 plugins across 10 categories: Claude Code (12) · OpenCode (9) · Cross-Tool (9) · VS Code AI (6) · Cursor (5) · Windsurf (4) · JetBrains (4) · Copilot (3) · Aider (1) · Codex (1)
+55 plugins across 10 categories: Claude Code (13) · OpenCode (9) · Cross-Tool (9) · VS Code AI (6) · Cursor (5) · Windsurf (4) · JetBrains (4) · Copilot (3) · Aider (1) · Codex (1)
 
-**[Browse all 54 plugins in plugins/](plugins/)** · [catalog.json](plugins/catalog.json)
+**[Browse all 55 plugins in plugins/](plugins/)** · [catalog.json](plugins/catalog.json)
 
 Top 5 shown:
 
@@ -122,9 +122,9 @@ Top 5 shown:
 
 ## Prompts
 
-84 prompts across 17 categories: Coding (9) · Architecture (8) · Image Generation (8) · DevOps (6) · General Purpose (6) · Code Review (5) · Debugging (5) · Documentation (5) · Reasoning (5) · Testing (4) · Data (4) · Design (4) · Productivity (4) · Agent Workflows (4) · Security (3) · Content (3) · Marketplace (1)
+85 prompts across 17 categories: Coding (9) · Architecture (8) · Image Generation (8) · General Purpose (7) · DevOps (6) · Code Review (5) · Debugging (5) · Documentation (5) · Reasoning (5) · Testing (4) · Data (4) · Design (4) · Productivity (4) · Agent Workflows (4) · Security (3) · Content (3) · Marketplace (1)
 
-**[Browse all 84 prompts in prompts/](prompts/)** · [catalog.json](prompts/catalog.json)
+**[Browse all 85 prompts in prompts/](prompts/)** · [catalog.json](prompts/catalog.json)
 
 Top 5 shown:
 
@@ -138,9 +138,9 @@ Top 5 shown:
 
 ## Tools
 
-82 tools across 14 categories: AI Coding CLIs (14) · Code Analysis (9) · Cloud & DevOps (7) · Formatting & Linting (7) · Agent Training & Eval (7) · Git Utilities (6) · Package Managers (5) · Docker & Containers (5) · API Testing (5) · Agent Memory (4) · Database CLIs (4) · Monitoring (4) · Terminal Enhancement (3) · AI APIs (2)
+86 tools across 14 categories: AI Coding CLIs (14) · Code Analysis (12) · Cloud & DevOps (7) · Formatting & Linting (7) · Agent Training & Eval (7) · Git Utilities (6) · Package Managers (5) · Docker & Containers (5) · API Testing (5) · Agent Memory (4) · Database CLIs (4) · Monitoring (4) · Terminal Enhancement (4) · AI APIs (2)
 
-**[Browse all 82 tools in tools/](tools/)** · [catalog.json](tools/catalog.json)
+**[Browse all 86 tools in tools/](tools/)** · [catalog.json](tools/catalog.json)
 
 Top 5 shown:
 

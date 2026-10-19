@@ -2,19 +2,19 @@
 
 Production-ready Claude Code hooks for security, automation, and quality
 
-**23** entries across **7** categories.
+**24** entries across **7** categories.
 
 ## Categories
 
+- **Session Management** (5)
 - **Security** (4)
 - **Automation** (4)
-- **Session Management** (4)
 - **Quality** (3)
 - **Safety** (3)
 - **Utility** (3)
 - **Notifications** (2)
 
-## All 23 hooks
+## All 24 hooks
 
 | Name                                     | Category           | Description                                                                                                                                              | Source                                                                                          | Badges                                                                                                                                                                                                                         |
 | ---------------------------------------- | ------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
@@ -41,6 +41,7 @@ Production-ready Claude Code hooks for security, automation, and quality
 | Stop Check                               | Utility            | Reminds to run tests if code was modified when session ends                                                                                              | `rohitg00/awesome-claude-code-toolkit`                                                          | ![Stars](https://img.shields.io/github/stars/rohitg00/awesome-claude-code-toolkit?style=flat&label=Stars&color=gold) ![Last Commit](https://img.shields.io/github/last-commit/rohitg00/awesome-claude-code-toolkit?style=flat) |
 | Lasso Security Prompt Injection Defenses | Security           | Enterprise-grade prompt injection detection and prevention hooks for Claude Code. Detects and blocks indirect prompt injection attacks via tool outputs. | [lasso-security/claude-hooks](https://github.com/lasso-security/claude-hooks)                   | ![Stars](https://img.shields.io/github/stars/lasso-security/claude-hooks?style=flat&label=Stars&color=gold) ![Last Commit](https://img.shields.io/github/last-commit/lasso-security/claude-hooks?style=flat)                   |
 | awesome-claude-code-hooks                | Utility            | Curated directory of Claude Code hooks organized by category. Meta-resource for discovering hooks in the ecosystem.                                      | [ithiria894/awesome-claude-code-hooks](https://github.com/ithiria894/awesome-claude-code-hooks) | ![Stars](https://img.shields.io/github/stars/ithiria894/awesome-claude-code-hooks?style=flat&label=Stars&color=gold) ![Last Commit](https://img.shields.io/github/last-commit/ithiria894/awesome-claude-code-hooks?style=flat) |
+| AWS Credential Check                     | Session Management | Warns before each prompt when Claude Code's AWS Bedrock credentials are expired or near expiry                                                           | [GeiserX/cc-aws-keepalive](https://github.com/GeiserX/cc-aws-keepalive)                         | ![Stars](https://img.shields.io/github/stars/GeiserX/cc-aws-keepalive?style=flat&label=Stars&color=gold) ![Last Commit](https://img.shields.io/github/last-commit/GeiserX/cc-aws-keepalive?style=flat)                         |
 
 ---
 

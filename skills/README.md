@@ -2,12 +2,12 @@
 
 Reusable AI agent skills following the SKILL.md standard
 
-**96** entries across **9** categories.
+**97** entries across **9** categories.
 
 ## Categories
 
 - **Development** (32)
-- **Productivity** (17)
+- **Productivity** (18)
 - **Design** (11)
 - **Content** (10)
 - **DevOps** (8)
@@ -16,7 +16,7 @@ Reusable AI agent skills following the SKILL.md standard
 - **Data** (5)
 - **Security** (2)
 
-## All 96 skills
+## All 97 skills
 
 | Name                                            | Category     | Description                                                                                                                                                                          | Source                                                                                                | Badges                                                                                                                                                                                                                               |
 | ----------------------------------------------- | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
@@ -116,6 +116,7 @@ Reusable AI agent skills following the SKILL.md standard
 | Patchy McPatchface                              | Development  | Evidence-driven workflow for scope, reuse, and proof in non-trivial code changes.                                                                                                    | [Shivansh-Gaur2/patchy-mcpatchface](https://github.com/Shivansh-Gaur2/patchy-mcpatchface)             | ![Stars](https://img.shields.io/github/stars/Shivansh-Gaur2/patchy-mcpatchface?style=flat&label=Stars&color=gold) ![Last Commit](https://img.shields.io/github/last-commit/Shivansh-Gaur2/patchy-mcpatchface?style=flat)             |
 | PlaceCall                                       | Productivity | Places real phone calls to US businesses via the PlaceCall API; returns outcome and transcript                                                                                       | [voygr-tech/placecall](https://github.com/voygr-tech/placecall)                                       | ![Stars](https://img.shields.io/github/stars/voygr-tech/placecall?style=flat&label=Stars&color=gold) ![Last Commit](https://img.shields.io/github/last-commit/voygr-tech/placecall?style=flat)                                       |
 | Review PR                                       | Development  | Reviews a pull request with independent parallel reviewers, verifies every finding, fixes the valid in-scope ones, and has an independent reviewer re-check the result.              | [GeiserX/agent-skills](https://github.com/GeiserX/agent-skills)                                       | ![Stars](https://img.shields.io/github/stars/GeiserX/agent-skills?style=flat&label=Stars&color=gold) ![Last Commit](https://img.shields.io/github/last-commit/GeiserX/agent-skills?style=flat)                                       |
+| Solaris Chief of Staff                          | Productivity | Runs deterministic intake and emits one bounded assignment or a genuine escalation. Does not perform specialist work.                                                                | [Shaisolaris/solaris-dev-shop](https://github.com/Shaisolaris/solaris-dev-shop)                       | ![Stars](https://img.shields.io/github/stars/Shaisolaris/solaris-dev-shop?style=flat&label=Stars&color=gold) ![Last Commit](https://img.shields.io/github/last-commit/Shaisolaris/solaris-dev-shop?style=flat)                       |
 
 ---
 

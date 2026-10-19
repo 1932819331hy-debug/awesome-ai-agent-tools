@@ -2,11 +2,11 @@
 
 Extensions for Claude Code, OpenCode, Cursor, and 6 more platforms
 
-**54** entries across **10** categories.
+**55** entries across **10** categories.
 
 ## Categories
 
-- **Claude Code** (12)
+- **Claude Code** (13)
 - **OpenCode** (9)
 - **Cross-Tool** (9)
 - **VS Code AI** (6)
@@ -17,7 +17,7 @@ Extensions for Claude Code, OpenCode, Cursor, and 6 more platforms
 - **Aider** (1)
 - **Codex** (1)
 
-## All 54 plugins
+## All 55 plugins
 
 | Name                              | Category    | Description                                                                                                                                                               | Source                                                                                            | Badges                                                                                                                                                                                                                           |
 | --------------------------------- | ----------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -75,6 +75,7 @@ Extensions for Claude Code, OpenCode, Cursor, and 6 more platforms
 | LynxPrompt                        | Cross-Tool  | Self-hosted web app and lynxp CLI that turn one set of AI coding rules into 30 rule-file formats.                                                                         | [GeiserX/LynxPrompt](https://github.com/GeiserX/LynxPrompt)                                       | ![Stars](https://img.shields.io/github/stars/GeiserX/LynxPrompt?style=flat&label=Stars&color=gold) ![Last Commit](https://img.shields.io/github/last-commit/GeiserX/LynxPrompt?style=flat)                                       |
 | workkit                           | Claude Code | Claude Code plugin that runs GitHub Issues as the work pipeline, with worker and verifier subagents and hooks that block commits until the full test suite passes.        | [ITW-Creative-Works/workkit](https://github.com/ITW-Creative-Works/workkit)                       | ![Stars](https://img.shields.io/github/stars/ITW-Creative-Works/workkit?style=flat&label=Stars&color=gold) ![Last Commit](https://img.shields.io/github/last-commit/ITW-Creative-Works/workkit?style=flat)                       |
 | Masaka for Codex                  | Codex       | Manages isolated Codex account and ChatGPT workspace profiles with usage visibility.                                                                                      | [masakaai/codex-multiple-env](https://github.com/masakaai/codex-multiple-env)                     | ![Stars](https://img.shields.io/github/stars/masakaai/codex-multiple-env?style=flat&label=Stars&color=gold) ![Last Commit](https://img.shields.io/github/last-commit/masakaai/codex-multiple-env?style=flat)                     |
+| subagent-tuner                    | Claude Code | Claude Code mod that sets the model and reasoning effort of every subagent: ask before it starts, recommend by task kind, or apply a saved default.                       | [Kruhlikau/subagent-tuner](https://github.com/Kruhlikau/subagent-tuner)                           | ![Stars](https://img.shields.io/github/stars/Kruhlikau/subagent-tuner?style=flat&label=Stars&color=gold) ![Last Commit](https://img.shields.io/github/last-commit/Kruhlikau/subagent-tuner?style=flat)                           |
 
 ---
 

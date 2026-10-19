@@ -2,15 +2,15 @@
 
 Curated prompt collections and marketplaces for AI coding agents
 
-**84** entries across **17** categories.
+**85** entries across **17** categories.
 
 ## Categories
 
 - **Coding** (9)
 - **Architecture** (8)
 - **Image Generation** (8)
+- **General Purpose** (7)
 - **DevOps** (6)
-- **General Purpose** (6)
 - **Code Review** (5)
 - **Debugging** (5)
 - **Documentation** (5)
@@ -24,7 +24,7 @@ Curated prompt collections and marketplaces for AI coding agents
 - **Content** (3)
 - **Marketplace** (1)
 
-## All 84 prompts
+## All 85 prompts
 
 | Name                            | Category         | Description                                                                                                                                          | Source                                                                                              | Badges                                                                                                                                                                                                                             |
 | ------------------------------- | ---------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -112,6 +112,7 @@ Curated prompt collections and marketplaces for AI coding agents
 | Awesome AI Prompts 2026         | General Purpose  | Updated prompt library for GPT-5.4, Claude Sonnet 4.6, and Gemini 3.1 models. First major prompt library updated for July 2026 model releases.       | `hoangatg/awesome-ai-prompts-2026`                                                                  | ![Stars](https://img.shields.io/github/stars/hoangatg/awesome-ai-prompts-2026?style=flat&label=Stars&color=gold) ![Last Commit](https://img.shields.io/github/last-commit/hoangatg/awesome-ai-prompts-2026?style=flat)             |
 | PromptHub                       | Marketplace      | Marketplace with 50,000+ prompts organized by use case and model compatibility. Largest dedicated prompt marketplace with strong discovery features. | [prompthub.com](https://prompthub.com)                                                              |                                                                                                                                                                                                                                    |
 | Hugging Face AI Agents Course   | Agent Workflows  | Free 2025 Hugging Face course covering agent fundamentals, smolagents, LangGraph, LlamaIndex, function-calling fine-tuning, and agent evaluation.    | [huggingface/agents-course](https://github.com/huggingface/agents-course)                           | ![Stars](https://img.shields.io/github/stars/huggingface/agents-course?style=flat&label=Stars&color=gold) ![Last Commit](https://img.shields.io/github/last-commit/huggingface/agents-course?style=flat)                           |
+| AgentKit Co Free Prompts        | General Purpose  | 41 free copy-paste prompts for coding, game design, tabletop RPGs and AI agents, each with a when-to-use note.                                       | [agentkitco/free-prompts](https://github.com/agentkitco/free-prompts)                               | ![Stars](https://img.shields.io/github/stars/agentkitco/free-prompts?style=flat&label=Stars&color=gold) ![Last Commit](https://img.shields.io/github/last-commit/agentkitco/free-prompts?style=flat)                               |
 
 ---
 
