@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "totalHooks": 24,
-    "lastUpdated": "2026-10-13",
+    "totalHooks": 25,
+    "lastUpdated": "2026-10-20",
     "sources": [
       "https://github.com/karanb192/claude-code-hooks",
       "https://github.com/rohitg00/awesome-claude-code-toolkit",
@@ -10,7 +10,7 @@
     "categories": [
       {
         "name": "Security",
-        "count": 4
+        "count": 5
       },
       {
         "name": "Automation",
@@ -484,6 +484,28 @@
       "sourceType": "community",
       "lastUpdated": "2026-07-13",
       "github": "https://github.com/lasso-security/claude-hooks"
+    },
+    {
+      "id": "lazaretto-guard-mcp-tool-poisoning",
+      "name": "Lazaretto Guard",
+      "category": "Security",
+      "description": "Reads a remote MCP server's tool descriptions for poisoning before claude mcp add connects it, and checks pinned package installs against published malware advisories; asks for permission on a finding, never blocks",
+      "eventType": "PreToolUse",
+      "matcher": "Bash|Write|Edit|MultiEdit",
+      "script": "hooks/guard.mjs",
+      "language": "node",
+      "stars": 0,
+      "tags": [
+        "security",
+        "mcp",
+        "tool-poisoning",
+        "supply-chain",
+        "prompt-injection"
+      ],
+      "source": "github",
+      "sourceType": "community",
+      "lastUpdated": "2026-10-20",
+      "github": "https://github.com/jamesdfinance-dev/lazaretto-plugins"
     },
     {
       "id": "awesome-claude-code-hooks",
