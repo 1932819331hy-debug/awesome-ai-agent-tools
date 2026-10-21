@@ -4,7 +4,7 @@
   "description": "Curated Model Context Protocol servers for AI-assisted development",
   "license": "MIT",
   "lastUpdated": "2026-10-18",
-  "totalServers": 166,
+  "totalServers": 167,
   "categories": [
     {
       "name": "Official Reference",
@@ -36,7 +36,7 @@
     },
     {
       "name": "Search",
-      "count": 14
+      "count": 15
     },
     {
       "name": "AI & Machine Learning",
@@ -3184,6 +3184,28 @@
       "stars": 0,
       "description": "Read-only remote MCP server for the CodeTrendy directory of newly launched startups, SaaS and indie products: keyword search with category and pricing filters, full listing profiles, alternatives to a named product, categories and trending listings. No key or account. Official registry id com.codetrendy/directory.",
       "install": "claude mcp add --transport http codetrendy https://codetrendy.com/api/mcp",
+      "license": "N/A",
+      "remote": "streamable-http",
+      "verified": false,
+      "sourceType": "official",
+      "lastUpdated": "2026-10-21",
+      "tags": [
+        "directory",
+        "startups",
+        "saas",
+        "product-discovery",
+        "remote"
+      ]
+    },
+    {
+      "id": "sitepatent-directory",
+      "name": "SitePatent Directory MCP",
+      "category": "Search",
+      "url": "https://sitepatent.com/mcp",
+      "website": "https://sitepatent.com",
+      "stars": 0,
+      "description": "Read-only remote MCP server for the SitePatent startup and product discovery directory: keyword search over websites, SaaS and AI tools with category and pricing filters, full listing profiles, alternatives to a named product, categories and trending listings. No key or account. Official registry id com.sitepatent/directory.",
+      "install": "claude mcp add --transport http sitepatent https://sitepatent.com/api/mcp",
       "license": "N/A",
       "remote": "streamable-http",
       "verified": false,
