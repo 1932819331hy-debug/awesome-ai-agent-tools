@@ -3,8 +3,8 @@
   "version": "2026.08",
   "description": "Reusable AI agent skills following the SKILL.md standard",
   "license": "MIT",
-  "lastUpdated": "2026-10-18",
-  "totalSkills": 97,
+  "lastUpdated": "2026-10-22",
+  "totalSkills": 98,
   "categories": [
     {
       "name": "Development",
@@ -28,7 +28,7 @@
     },
     {
       "name": "DevOps",
-      "count": 8
+      "count": 9
     },
     {
       "name": "Marketing",
@@ -1874,6 +1874,22 @@
         "intake",
         "assignment",
         "control-plane"
+      ]
+    },
+    {
+      "id": "deed-page",
+      "name": "deed.page",
+      "source": "f-o-x11/deed-page-skill",
+      "category": "DevOps",
+      "description": "Publishes an HTML file or static folder to a permanent https://<slug>.deed.page/ URL with one curl request. No account or API key.",
+      "install": "npx skills add f-o-x11/deed-page-skill",
+      "license": "MIT",
+      "local": false,
+      "tags": [
+        "hosting",
+        "static-site",
+        "publish",
+        "deployment"
       ]
     }
   ]
