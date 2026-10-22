@@ -4,7 +4,7 @@
   "description": "Curated Model Context Protocol servers for AI-assisted development",
   "license": "MIT",
   "lastUpdated": "2026-10-18",
-  "totalServers": 169,
+  "totalServers": 170,
   "categories": [
     {
       "name": "Official Reference",
@@ -36,7 +36,7 @@
     },
     {
       "name": "Search",
-      "count": 15
+      "count": 16
     },
     {
       "name": "AI & Machine Learning",
@@ -3263,6 +3263,28 @@
         "context-window"
       ],
       "notes": "Four per-session meta-tools (`router__list_upstreams`, `router__enable_upstream`, `router__disable_upstream`, `router__refresh_upstream`) turn upstreams on and off without a restart. An idle upstream closes after 15 minutes. Upstreams are configured in `~/.omega/mcp-router/servers/<name>/config.json`. Source: `packages/mcp-router` in the omega monorepo."
+    },
+    {
+      "id": "mediapronet-directory",
+      "name": "MEDIAPRONET Directory MCP",
+      "category": "Search",
+      "url": "https://mediapronet.com/mcp",
+      "website": "https://mediapronet.com",
+      "stars": 0,
+      "description": "Read-only remote MCP server for the MEDIAPRONET launch directory: keyword search over newly launched startups, SaaS and AI tools with category and pricing filters, full listing profiles, alternatives to a named product, categories and trending listings. No key or account. Official registry id com.mediapronet/directory.",
+      "install": "claude mcp add --transport http mediapronet https://mediapronet.com/api/mcp",
+      "license": "N/A",
+      "remote": "streamable-http",
+      "verified": false,
+      "sourceType": "official",
+      "lastUpdated": "2026-10-22",
+      "tags": [
+        "directory",
+        "startups",
+        "saas",
+        "product-discovery",
+        "remote"
+      ]
     }
   ]
 }
