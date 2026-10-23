@@ -4,7 +4,7 @@
   "description": "Curated Model Context Protocol servers for AI-assisted development",
   "license": "MIT",
   "lastUpdated": "2026-10-18",
-  "totalServers": 170,
+  "totalServers": 171,
   "categories": [
     {
       "name": "Official Reference",
@@ -64,7 +64,7 @@
     },
     {
       "name": "Research & Data",
-      "count": 14
+      "count": 15
     },
     {
       "name": "Marketing",
@@ -1885,7 +1885,7 @@
       "category": "Blockchain",
       "github": "https://github.com/vbkotecha/agentservices-api",
       "stars": 0,
-      "description": "Paid data APIs for AI agents \u2014 crypto prices, DeFi yields, on-chain analytics, whale tracking, market intelligence via x402 nanopayments",
+      "description": "Paid data APIs for AI agents — crypto prices, DeFi yields, on-chain analytics, whale tracking, market intelligence via x402 nanopayments",
       "install": "Remote endpoint: https://agentservices.to/mcp",
       "license": "MIT",
       "verified": true,
@@ -3283,6 +3283,28 @@
         "startups",
         "saas",
         "product-discovery",
+        "remote"
+      ]
+    },
+    {
+      "id": "open-data-actors-mcp",
+      "name": "Open Data Actors MCP",
+      "category": "Research & Data",
+      "github": "https://github.com/Mamoo85/open-data-actors-mcp",
+      "url": "https://open-data-actors-mcp.vercel.app/mcp",
+      "stars": 0,
+      "description": "Typed tools over public-record data (sanctions screening, SEC Form D, new business filings, FMCSA carriers, WARN notices, domain RDAP/DNS) via Apify actors. Bring your own Apify token; pay-per-result. Author-submitted.",
+      "install": "claude mcp add --transport http open-data-actors https://open-data-actors-mcp.vercel.app/mcp --header \"Authorization: Bearer $APIFY_TOKEN\"",
+      "license": "MIT",
+      "remote": "streamable-http",
+      "verified": false,
+      "sourceType": "community",
+      "lastUpdated": "2026-10-23",
+      "tags": [
+        "public-data",
+        "sanctions",
+        "sec",
+        "apify",
         "remote"
       ]
     }
