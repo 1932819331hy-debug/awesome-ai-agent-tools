@@ -3,8 +3,8 @@
   "version": "2026.08",
   "description": "Curated Model Context Protocol servers for AI-assisted development",
   "license": "MIT",
-  "lastUpdated": "2026-10-18",
-  "totalServers": 171,
+  "lastUpdated": "2026-10-24",
+  "totalServers": 172,
   "categories": [
     {
       "name": "Official Reference",
@@ -68,7 +68,7 @@
     },
     {
       "name": "Marketing",
-      "count": 8
+      "count": 9
     },
     {
       "name": "Data Engineering",
@@ -3307,6 +3307,29 @@
         "apify",
         "remote"
       ]
+    },
+    {
+      "id": "market-mirror",
+      "name": "MarketMirror",
+      "category": "Marketing",
+      "github": "https://github.com/DarkWorldCoder/market-mirror",
+      "stars": 2,
+      "description": "Compare ads, prices and pitches with AI-simulated buyers; inspect objections before real tests.",
+      "install": "git clone https://github.com/DarkWorldCoder/market-mirror.git && cd market-mirror && bash install.sh",
+      "license": "AGPL-3.0",
+      "verified": false,
+      "source": "github",
+      "sourceType": "official",
+      "website": "https://darkworldcoder.github.io/market-mirror/demo/",
+      "lastUpdated": "2026-10-24",
+      "tags": [
+        "marketing",
+        "simulation",
+        "synthetic-buyers",
+        "mcp",
+        "self-hosted"
+      ],
+      "notes": "Maintainer-submitted. After installation, configure a model provider with ./mm configure, then print client configuration with ./mm agent-config --client generic (also codex, claude, cursor, gemini). Local stdio server: ./mm mcp. Requires Git, Bash, Python 3 and uv; installer provisions Python 3.12. Built on MiroFish and OASIS. Model usage can cost money. Generated buyer responses are simulations, not proof of demand; validate with real customer outcomes. The website is a saved example dashboard, not a hosted simulation service."
     }
   ]
 }
