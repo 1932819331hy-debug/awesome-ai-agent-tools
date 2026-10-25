@@ -4,7 +4,7 @@
   "description": "Curated Model Context Protocol servers for AI-assisted development",
   "license": "MIT",
   "lastUpdated": "2026-10-25",
-  "totalServers": 175,
+  "totalServers": 176,
   "categories": [
     {
       "name": "Official Reference",
@@ -68,7 +68,7 @@
     },
     {
       "name": "Marketing",
-      "count": 9
+      "count": 10
     },
     {
       "name": "Data Engineering",
@@ -3398,6 +3398,27 @@
         "cloud",
         "directory",
         "remote-mcp"
+      ]
+    },
+    {
+      "id": "simpleverifier",
+      "name": "SimpleVerifier",
+      "category": "Marketing",
+      "github": "https://github.com/Ahmedmkarrar/simpleverifier-mcp",
+      "stars": 0,
+      "description": "Hosted email verification: valid, risky or invalid with a reason (syntax, domain, disposable, live SMTP mailbox check), phone format and domain MX/SPF/DMARC checks. Paid plan required.",
+      "install": "Remote MCP https://simpleverifier.com/api/mcp (streamable HTTP, OAuth or Bearer API key)",
+      "license": "MIT (configs); hosted service proprietary",
+      "verified": false,
+      "source": "official-docs",
+      "sourceType": "official",
+      "lastUpdated": "2026-10-25",
+      "tags": [
+        "email-verification",
+        "email-validation",
+        "smtp",
+        "remote",
+        "oauth"
       ]
     }
   ]
