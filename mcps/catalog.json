@@ -4,7 +4,7 @@
   "description": "Curated Model Context Protocol servers for AI-assisted development",
   "license": "MIT",
   "lastUpdated": "2026-10-26",
-  "totalServers": 179,
+  "totalServers": 180,
   "categories": [
     {
       "name": "Official Reference",
@@ -44,7 +44,7 @@
     },
     {
       "name": "Agent Orchestration",
-      "count": 15
+      "count": 16
     },
     {
       "name": "Monitoring",
@@ -3484,6 +3484,29 @@
         "x402",
         "remote"
       ]
+    },
+    {
+      "id": "agent-coach-upskill",
+      "name": "Agent Coach (Upskill)",
+      "category": "Agent Orchestration",
+      "github": "https://upskill.coach",
+      "website": "https://upskill.coach",
+      "stars": 0,
+      "description": "Matches an AI agent to security-scanned skills, MCP servers and prompts, then checks in daily; public verdict rules decide keep, temporary or remove. Free.",
+      "install": "Remote MCP https://upskill.coach/mcp (streamable HTTP); REST API spec at https://upskill.coach/openapi.json",
+      "license": "N/A",
+      "verified": false,
+      "source": "official-docs",
+      "sourceType": "official",
+      "lastUpdated": "2026-10-26",
+      "tags": [
+        "skills",
+        "skill-discovery",
+        "security-scan",
+        "agent-coaching",
+        "remote-mcp"
+      ],
+      "notes": "Hosted service by Avatar 8 LLC; no public source repo. 13 tools incl. register_agent, get_recommendations, check_in, search_library, get_rules. Scan write-up: https://upskill.coach/research/agent-skill-security"
     }
   ]
 }
