@@ -4,7 +4,7 @@
   "description": "Curated Model Context Protocol servers for AI-assisted development",
   "license": "MIT",
   "lastUpdated": "2026-10-26",
-  "totalServers": 178,
+  "totalServers": 179,
   "categories": [
     {
       "name": "Official Reference",
@@ -60,7 +60,7 @@
     },
     {
       "name": "Finance",
-      "count": 6
+      "count": 7
     },
     {
       "name": "Research & Data",
@@ -131,6 +131,28 @@
     }
   ],
   "servers": [
+    {
+      "id": "agent-payment-node",
+      "name": "Agent Payment Node",
+      "category": "Finance",
+      "github": "https://github.com/nuanu-ai/agent-payment-node",
+      "stars": 0,
+      "description": "Local macOS CLI and stdio MCP payments with foreground owner approval for signing.",
+      "install": "brew install nuanu-ai/tap/apn",
+      "license": "MIT",
+      "verified": false,
+      "source": "github",
+      "sourceType": "official",
+      "lastUpdated": "2026-10-26",
+      "tags": [
+        "payments",
+        "x402",
+        "macos",
+        "stdio",
+        "cli"
+      ],
+      "notes": "macOS Apple Silicon with Node 24. Start the local stdio server with apn mcp serve after installation. Agent preparation is separate from foreground human approval for signing. External provider and network charges are separate. No hosted endpoint or Docker/Linux support is claimed."
+    },
     {
       "id": "rea-captcha",
       "name": "rea-captcha",
