@@ -3,7 +3,7 @@
   "version": "2026.08",
   "description": "Curated Model Context Protocol servers for AI-assisted development",
   "license": "MIT",
-  "lastUpdated": "2026-10-26",
+  "lastUpdated": "2026-10-27",
   "totalServers": 181,
   "categories": [
     {
@@ -3335,15 +3335,15 @@
       "name": "MarketMirror",
       "category": "Marketing",
       "github": "https://github.com/DarkWorldCoder/market-mirror",
-      "stars": 2,
+      "stars": 4,
       "description": "Compare ads, prices and pitches with AI-simulated buyers; inspect objections before real tests.",
-      "install": "git clone https://github.com/DarkWorldCoder/market-mirror.git && cd market-mirror && bash install.sh",
+      "install": "uvx --from marketmirror==0.4.2 marketmirror",
       "license": "AGPL-3.0",
       "verified": false,
       "source": "github",
       "sourceType": "official",
-      "website": "https://darkworldcoder.github.io/market-mirror/demo/",
-      "lastUpdated": "2026-10-24",
+      "website": "https://darkworldcoder.github.io/market-mirror/",
+      "lastUpdated": "2026-10-27",
       "tags": [
         "marketing",
         "simulation",
@@ -3351,7 +3351,7 @@
         "mcp",
         "self-hosted"
       ],
-      "notes": "Maintainer-submitted. After installation, configure a model provider with ./mm configure, then print client configuration with ./mm agent-config --client generic (also codex, claude, cursor, gemini). Local stdio server: ./mm mcp. Requires Git, Bash, Python 3 and uv; installer provisions Python 3.12. Built on MiroFish and OASIS. Model usage can cost money. Generated buyer responses are simulations, not proof of demand; validate with real customer outcomes. The website is a saved example dashboard, not a hosted simulation service."
+      "notes": "Maintainer-submitted. The pinned PyPI package launches the local stdio MCP server through uv; start with doctor, then setup if the engine is missing. Engine setup requires Git, Bash and uv on Linux, macOS or WSL; native Windows has not been validated. Configure the model provider locally with ./mm configure. Startup and discovery of 27 tools were checked in a credential-free environment, not a complete fresh simulation or client certification. Built on MiroFish and OASIS. Model usage can cost money. Generated buyer responses are hypotheses, not established demand or sales forecasts; validate with real customer outcomes. Saved fictional Fitloop dashboard: https://darkworldcoder.github.io/market-mirror/demo/ (no new simulation runs in the browser)."
     },
     {
       "id": "bounty-guard",
