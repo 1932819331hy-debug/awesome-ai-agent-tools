@@ -4,7 +4,7 @@
   "description": "Curated Model Context Protocol servers for AI-assisted development",
   "license": "MIT",
   "lastUpdated": "2026-10-27",
-  "totalServers": 181,
+  "totalServers": 182,
   "categories": [
     {
       "name": "Official Reference",
@@ -32,7 +32,7 @@
     },
     {
       "name": "Communication",
-      "count": 13
+      "count": 14
     },
     {
       "name": "Search",
@@ -3529,6 +3529,30 @@
         "stdio",
         "rust"
       ]
+    },
+    {
+      "id": "cooper-email",
+      "name": "Cooper Email",
+      "category": "Communication",
+      "github": "https://github.com/cooper-email/cooper-email",
+      "website": "https://cooperemail.com/docs/mcp",
+      "stars": 0,
+      "description": "Gives each AI agent its own inbox: send, read, search and reply to email, and wait for the next message or a sign-up code. The agent creates its inbox and API key with one request; free tier, no card.",
+      "install": "Remote MCP https://cooperemail.com/mcp (streamable HTTP, OAuth or Bearer COOPER_API_KEY); skills: npx skills add cooper-email/cooper-email",
+      "license": "MIT",
+      "remote": "streamable-http",
+      "verified": false,
+      "source": "official-docs",
+      "sourceType": "official",
+      "lastUpdated": "2026-10-27",
+      "tags": [
+        "email",
+        "inbox",
+        "agents",
+        "verification-codes",
+        "remote-mcp"
+      ],
+      "notes": "Hosted service by Avatar 8 LLC; the MIT repo holds the agent skills and Claude Code / Cursor plugin config, not the server source. Agent docs: https://cooperemail.com/llms.txt. Official MCP Registry id: com.cooperemail/cooper-email."
     }
   ]
 }
